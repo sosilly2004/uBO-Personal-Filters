@@ -21,3 +21,6 @@ youtube.com##ytd-channel-video-player-renderer:remove()
 duckduckgo.com##.onboarding-ed, .tag-home__wrapper, .footer, .ia-modules, .badge-link, .js-module--products.module--carousel-products:remove()
 !Google login scripts on various pages
 ||accounts.google.com/gsi/*$xhr,script,3p
+!Block Twitter login popup
+twitter.com##div#layers div[data-testid="sheetDialog"]:upward(div[role="group"][tabindex="0"])
+twitter.com##html:style(overflow: auto !important;)
