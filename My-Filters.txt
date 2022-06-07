@@ -24,3 +24,7 @@ duckduckgo.com##.onboarding-ed, .tag-home__wrapper, .footer, .ia-modules, .badge
 !Block Twitter login popup
 twitter.com##div#layers div[data-testid="sheetDialog"]:upward(div[role="group"][tabindex="0"])
 twitter.com##html:style(overflow: auto !important;)
+!Clean Google search to show only text results
+google.*###rso > :not(div.g):not(:has(:scope>div.g))
+!Remove footer showing address in Google search
+google.*###footcnt > #fbarcnt
