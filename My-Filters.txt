@@ -1,0 +1,21 @@
+[uBlock Origin]
+! Title: uBO Personal Filters
+! Homepage: https://github.com/Morgan-le-Fay/uBO-Personal-Filters
+! Author: Morgan-le-Fay
+! Expires: 4 days
+
+!Block YouTube annotations scripts
+/annotations_module.js$script,important,domain=youtube.com
+!Block YouTube end-screen/auto-play next
+/endscreen.js$script,important,domain=youtube.com
+!Clean YouTube Search
+youtube.com##ytd-search ytd-item-section-renderer>#contents>:not(ytd-video-renderer,ytd-channel-renderer),ytd-secondary-search-container-renderer
+!Remove YouTube live chat
+www.youtube.com###chat:remove()
+!Remove YouTube player from channel pages
+youtube.com##ytd-channel-video-player-renderer:remove()
+!Remove Reddit RPAN
+||redd.it/*.m3u8^$xhr,domain=reddit.com
+||strapi.reddit.com^$xhr,domain=reddit.com
+!Clean DuckDuckGo
+duckduckgo.com##.onboarding-ed, .tag-home__wrapper, .footer, .ia-modules, .badge-link, .js-module--products.module--carousel-products:remove()
