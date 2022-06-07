@@ -19,3 +19,5 @@ youtube.com##ytd-channel-video-player-renderer:remove()
 ||strapi.reddit.com^$xhr,domain=reddit.com
 !Clean DuckDuckGo
 duckduckgo.com##.onboarding-ed, .tag-home__wrapper, .footer, .ia-modules, .badge-link, .js-module--products.module--carousel-products:remove()
+!Google login scripts on various pages
+||accounts.google.com/gsi/*$xhr,script,3p
