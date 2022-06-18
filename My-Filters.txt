@@ -2,7 +2,7 @@
 ! Title: uBO Personal Filters
 ! Homepage: https://github.com/Morgan-le-Fay/uBO-Personal-Filters
 ! Author: Morgan-le-Fay
-! Expires: 4 days
+! Expires: 10 days
 
 !Block YouTube annotations scripts
 /annotations_module.js$script,important,domain=youtube.com
@@ -28,3 +28,6 @@ twitter.com##html:style(overflow: auto !important;)
 google.*###rso > :not(div.g):not(:has(:scope>div.g))
 !Remove footer showing address in Google search
 google.*###footcnt > #fbarcnt
+!Hide hashtags below YouTube player
+www.youtube.com###super-title
+www.youtube.com##.super-title
