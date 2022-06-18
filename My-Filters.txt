@@ -31,3 +31,5 @@ google.*###footcnt > #fbarcnt
 !Hide hashtags below YouTube player
 www.youtube.com###super-title
 www.youtube.com##.super-title
+!Remove YouTube "Our members" on channel pages
+youtube.com##ytd-recognition-shelf-renderer
