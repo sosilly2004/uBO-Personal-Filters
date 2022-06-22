@@ -35,3 +35,5 @@ www.youtube.com##.super-title
 youtube.com##ytd-recognition-shelf-renderer
 !Block Disqus
 ||disqus.com^$important
+!Block Taboola
+||taboola.com^$important
