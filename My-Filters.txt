@@ -37,3 +37,10 @@ youtube.com##ytd-recognition-shelf-renderer
 ||disqus.com^$important
 !Block Taboola
 ||taboola.com^$important
+!Hide YouTube watched videos on the homepage
+www.youtube.com##ytd-browse ytd-rich-item-renderer:has(ytd-thumbnail-overlay-resume-playback-renderer)
+!Hide YouTube watched videos on the subscriptions and channel pages
+www.youtube.com##ytd-browse ytd-grid-video-renderer:has(ytd-thumbnail-overlay-resume-playback-renderer)
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer ytd-thumbnail-overlay-resume-playback-renderer:upward(ytd-item-section-renderer)
+!Hide YouTube watched videos in recommendations
+www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(ytd-thumbnail-overlay-resume-playback-renderer)
