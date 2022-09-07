@@ -50,3 +50,5 @@ reddit.com###redesign-beta-optin-btn
 www.twitch.tv###twilight-sticky-footer-root
 !Remove YouTube shorts shelf from homepage
 www.youtube.com###content > .ytd-rich-section-renderer.style-scope
+!Remove twitch's login footer
+www.twitch.tv###twilight-sticky-footer-root
