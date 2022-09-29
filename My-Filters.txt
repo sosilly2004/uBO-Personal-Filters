@@ -46,8 +46,6 @@ www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer ytd
 www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(ytd-thumbnail-overlay-resume-playback-renderer)
 !Remove Get new reddit icon
 reddit.com###redesign-beta-optin-btn
-!Remove twitch.tv footer
-www.twitch.tv###twilight-sticky-footer-root
 !Remove YouTube shorts shelf from homepage
 www.youtube.com###content > .ytd-rich-section-renderer.style-scope
 !Remove twitch's login footer
