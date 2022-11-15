@@ -50,7 +50,5 @@ reddit.com###redesign-beta-optin-btn
 www.youtube.com###content > .ytd-rich-section-renderer.style-scope
 !Remove twitch's login footer
 www.twitch.tv###twilight-sticky-footer-root
-!Remove YouTube Our Members shelf from channel pages
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:nth-of-type(2)
 !Disable YouTube double-click to fullscreen
 youtube.com##+js(aeld, dblclick)
