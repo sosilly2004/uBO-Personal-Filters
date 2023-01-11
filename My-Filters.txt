@@ -52,3 +52,6 @@ www.youtube.com###content > .ytd-rich-section-renderer.style-scope
 www.twitch.tv###twilight-sticky-footer-root
 !Disable YouTube double-click to fullscreen
 youtube.com##+js(aeld, dblclick)
+!Hide reposts on Soundcloud
+soundcloud.com##.stream .stream__list span.sc-ministats-reposts:upward(li.soundList__item)
+soundcloud.com##.userStream .userStream__list span.sc-ministats-reposts:upward(li.soundList__item)
