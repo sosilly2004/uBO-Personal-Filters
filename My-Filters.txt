@@ -52,3 +52,5 @@ youtube.com##+js(aeld, dblclick)
 !Hide reposts on Soundcloud
 soundcloud.com##.stream .stream__list span.sc-ministats-reposts:upward(li.soundList__item)
 soundcloud.com##.userStream .userStream__list span.sc-ministats-reposts:upward(li.soundList__item)
+!Hide the login pop-up on tumblr
+tumblr.com###base-container > #glass-container > div.Lq1wm[role="dialog"]:remove()
