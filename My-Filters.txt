@@ -1,6 +1,6 @@
 [uBlock Origin]
 ! Title: uBO Personal Filters
-! Homepage: https://github.com/Morgan-le-Fay/uBO-Personal-Filters
+! Homepage: https://github.com/mohi-TOS/uBO-Personal-Filters
 ! Author: Morgan-le-Fay
 ! Expires: 10 days
 
