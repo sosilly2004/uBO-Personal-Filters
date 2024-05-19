@@ -1,7 +1,7 @@
 [uBlock Origin]
 ! Title: uBO Personal Filters
-! Homepage: https://github.com/slasherly/uBO-Personal-Filters
-! Author: Morgan-le-Fay
+! Homepage: https://github.com/sosilly2004/uBO-Personal-Filters
+! Author: sosilly2004
 ! Expires: 10 days
 
 !Block YouTube annotations scripts
